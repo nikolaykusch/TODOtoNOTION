@@ -1,0 +1,92 @@
+{
+    "name": "TODO to Notion",
+    "displayName": "TODO to Notion",
+    "description": "Sync TODO comments with a Notion database",
+    "keywords": [
+        "todo",
+        "notion",
+        "sync"
+    ],
+    "version": "1.0.0",
+    "license": "MIT",
+    "publisher": "Mykola Kushch",
+    "engines": {
+        "vscode": "^1.72.0"
+    },
+    "repository": "https://github.com/nikolaykusch/TODOtoNOTION",
+    "bugs": {
+        "url": "https://github.com/nikolaykusch/TODOtoNOTION/issues",
+        "email": "dev.kusch@gmail.com"
+    },
+    "scripts": {
+        "test:unit": "jest",
+        "vscode:prepublish": "webpack --mode production",
+        "webpack": "webpack --mode development",
+        "webpack-dev": "webpack --mode development --watch"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./dist/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "TODOtoNOTION.setCredentials",
+                "title": "Set Notion Credentials",
+                "category": "TODO to Notion",
+                "icon": "$(key)"
+            },
+            {
+                "command": "TODOtoNOTION.listProperties",
+                "title": "List Notion Database Properties",
+                "category": "TODO to Notion",
+                "icon": "$(database)"
+            },
+            {
+                "command": "TODOtoNOTION.syncFromNotion",
+                "title": "Sync TODOs from Notion",
+                "category": "TODO to Notion",
+                "icon": "$(sync)"
+            },
+            {
+                "command": "TODOtoNOTION.forceSync",
+                "title": "Force Sync TODOs with Notion",
+                "category": "TODO to Notion",
+                "icon": "$(refresh)"
+            }
+        ],
+        "configuration": [
+            {
+                "title": "Notion Integration",
+                "order": 1,
+                "type": "object",
+                "properties": {
+                    "TODOtoNOTION.databaseId": {
+                        "default": "",
+                        "markdownDescription": "The ID of the Notion database where todos will be synced.",
+                        "type": "string"
+                    }
+                }
+            }
+        ]
+    },
+    "__metadata": {
+        "id": "261cac81-cd7b-4555-bb41-0c2d2bcd3e70",
+        "publisherId": "d4906d2e-f2ee-492d-9c7c-02b6160599ec",
+        "publisherDisplayName": "Mykola Kushch"
+    },
+    "dependencies": {
+        "@notionhq/client": "^3.1.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.27.4",
+        "@babel/preset-env": "^7.27.2",
+        "babel-loader": "^10.0.0",
+        "jest": "^29.3.1",
+        "webpack": "^5.99.9",
+        "webpack-cli": "^6.0.1"
+    }
+}

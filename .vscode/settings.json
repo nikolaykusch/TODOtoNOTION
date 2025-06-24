@@ -1,0 +1,28 @@
+{
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#131313",
+        "editor.lineHighlightBackground": "#00000000",
+        "editor.lineHighlightBorder": "#131313",
+        "minimap.background": "#000000AA",
+        "scrollbar.shadow": "#000000AA",
+        "terminal.background": "#00000000",
+        "editorCursor.background": "#000000",
+        "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+        "editorOverviewRuler.selectionHighlightForeground": "#0000",
+        "editorOverviewRuler.rangeHighlightForeground": "#0000",
+        "editorOverviewRuler.wordHighlightForeground": "#0000",
+        "editorOverviewRuler.bracketMatchForeground": "#0000",
+        "editorOverviewRuler.findMatchForeground": "#0000",
+        "editorOverviewRuler.modifiedForeground": "#0000",
+        "editorOverviewRuler.deletedForeground": "#0000",
+        "editorOverviewRuler.warningForeground": "#0000",
+        "editorOverviewRuler.addedForeground": "#0000",
+        "editorOverviewRuler.errorForeground": "#0000",
+        "editorOverviewRuler.infoForeground": "#0000",
+        "editorOverviewRuler.border": "#0000",
+        "editor.selectionBackground": "#313131",
+        "editorIndentGuide.background1": "#222222",
+        "editorIndentGuide.activeBackground1": "#444444"
+    },
+    "TODOtoNOTION.databaseId": "21b66064291380baaafce752038e7c04"
+}
