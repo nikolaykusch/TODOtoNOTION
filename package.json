@@ -9,7 +9,7 @@
     ],
     "version": "1.0.0",
     "license": "MIT",
-    "publisher": "Mykola Kushch",
+    "publisher": "mnml",
     "engines": {
         "vscode": "^1.72.0"
     },
@@ -31,6 +31,7 @@
         "onStartupFinished"
     ],
     "main": "./dist/extension",
+    "icon": "icon.png",
     "contributes": {
         "commands": [
             {
@@ -74,8 +75,8 @@
         ]
     },
     "__metadata": {
-        "id": "261cac81-cd7b-4555-bb41-0c2d2bcd3e70",
-        "publisherId": "d4906d2e-f2ee-492d-9c7c-02b6160599ec",
+        "id": "21aacb94-e1eb-61c6-8e75-3509f6e8af70",
+        "publisherId": "21aacb94-e1eb-61c6-8e75-3509f6e8af70",
         "publisherDisplayName": "Mykola Kushch"
     },
     "dependencies": {
@@ -88,5 +89,8 @@
         "jest": "^29.3.1",
         "webpack": "^5.99.9",
         "webpack-cli": "^6.0.1"
-    }
+    },
+    "sponsor": {
+  "url": "https://buymeacoffee.com/nkusch"
+}
 }
