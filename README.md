@@ -1,6 +1,6 @@
 # TODO to Notion 🚀
 
-[![VS Code](https://img.shields.io/badge/VSCode-Extension-blue?logo=visualstudiocode)](https://marketplace.visualstudio.com/)  
+[![VS Code](https://img.shields.io/badge/VSCode-Extension-blue?logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=mnml.TODOtoNOTION/)  
 Sync your code TODO comments with a Notion database. Keep your TODOs in sync between your codebase and Notion, including unique IDs, file paths, and line numbers.
 
 ---
